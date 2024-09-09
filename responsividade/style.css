@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+}
+@media (max-width: 800px) {
+  body {
+    background-color: mediumvioletred;
+  }
+}
+
+h1 {
+  color: darkblue;
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  h1 {
+    color: darkgreen;
+  }
+}
+
+p {
+  border: sienna solid;
+  width: 50vw;
+}/*# sourceMappingURL=style.css.map */

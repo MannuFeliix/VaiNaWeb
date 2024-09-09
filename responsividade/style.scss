@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  //@media (até qual tamanho você que aplicar aquele estilo)
+  @media (max-width: 800px) {
+    background-color: mediumvioletred;
+  }
+}
+
+h1 {
+  color: darkblue;
+  //só vai aparecer quando a largura da tela está entre 500 e 900
+  @media (min-width: 500px) and (max-width: 900px) {
+    color: darkgreen;
+  }
+}
+
+p {
+  border: sienna solid;
+  width: 50vw;
+}
